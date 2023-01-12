@@ -1,4 +1,4 @@
-# How to log into a course-specific account on ieng6
+# Tutorial
 ## Installing VScode
 - Go to the official website and download the file https://code.visualstudio.com/
 ![image](https://user-images.githubusercontent.com/117802747/212136704-c0fc09af-2f1d-4fb8-89ed-9e37c1be03bd.png)
