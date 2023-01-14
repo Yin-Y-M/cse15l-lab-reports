@@ -27,7 +27,7 @@ Great! You have finished the first step!
 After pressing the enter key, you will see hints like the following
 ![enter account](https://user-images.githubusercontent.com/117802747/212150308-685215f9-dd85-45f4-8b86-00478fb522ce.png)
 
-Now, you have successfully connected to your account!3
+Now, you have successfully connected to your account!
 
 ## Trying Some Commands
 Here are some specific useful commands to try:
