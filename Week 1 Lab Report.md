@@ -42,4 +42,4 @@ Here are some specific useful commands to try:
   ![image](https://user-images.githubusercontent.com/117802747/212149012-9ad95056-d6da-4a5c-89ca-d49eb2e02c85.png)
 
   
- Have Fun!
+ **That's the end of the tutorial. Have Fun!**
