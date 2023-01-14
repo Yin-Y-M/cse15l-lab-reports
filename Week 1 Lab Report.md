@@ -21,7 +21,7 @@ Great! You have finished the first step!
 ![image](https://user-images.githubusercontent.com/117802747/212139780-d37094d3-dc55-4b4d-946f-e99eec618aaf.png)
 
 - Next, enter the following command in the command line: *$ ssh cs15lwi23xxx@ieng6.ucsd.edu*, where xxx should be replaced by the letters in your course-specific account. Press the enter key after you have finished
-![image](https://user-images.githubusercontent.com/117802747/212149975-11e74576-a4d0-44d1-82e7-8177ec3ac0ca.png)
+![image](https://user-images.githubusercontent.com/117802747/212458931-1f210787-fab6-4133-82b3-39ff27f564d3.png)
 
 - Now enter the password for your account. **ATTENTION:The password you entered won't be displayed in the command line!**
 After pressing the enter key, you will see hints like the following
