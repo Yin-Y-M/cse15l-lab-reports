@@ -101,4 +101,4 @@ static void reverseInPlace(int[] arr) {
 # Part 3
 In week 2 and 3, I obtained a concrete understanding of building my own server. To begin with, I need a handler that implements URLHandler interface, 
 which takes a URL as input and respond with the text of a web page. In addition, I need a Server class that takes a URLHandler and starts up the server that listens for incoming connections.
-Through utilizing those codes, I was able to build not only servers of all kinds, but even a mini-SearchEngine! 
+Through utilizing those codes, I was able to build not only servers of all kinds, but even a mini Search Engine! 
