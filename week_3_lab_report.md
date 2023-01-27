@@ -1,9 +1,53 @@
 # Part 1 
-![image](https://user-images.githubusercontent.com/117802747/214969649-fa5b829d-9b67-46ca-b82e-e5ed59dbc3bf.png)
+## code for StringServer
+```java
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    String information="";
+
+    public String handleRequest(URI url) {
+        if(url.getPath().equals("/")){
+            return information;
+        }
+        else if(url.getPath().contains("/add-message")){
+            String[] parameters=url.getQuery().split("=");
+            if(parameters[0].equals("s")){
+                information=information+"\n"+parameters[1];
+                return information;
+            }
+        }
+        return "404 Not Found!";
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+        int port = Integer.parseInt(args[0]);
+        Server.start(port, new Handler());
+    }
+}
+```
+
+## Screenshots of using /add-message
 ![Execute](https://user-images.githubusercontent.com/117802747/214969694-82553585-8183-4494-94a8-8bf52cb81421.png)
 ![Execute2](https://user-images.githubusercontent.com/117802747/214969714-d7e1b74a-859b-4cc3-9d67-ebf6ee63e2db.png)
-- The handleRequest method and the main method are called.
-- For the handleRequest method, I passed in a series of strings.The values of fields in java
+
+## methods called in my code
+The handleRequest method in the Handler class and the main method in the StringServer class are called.
+
+## relevant arguments and values of relevant fields
+For the handleRequest method, I passed in a series of strings as arguments, including "Hello", "How are you", "I am fine", "Thanks", and "That's Great".
+
+I have one variable(information) as the value of the field.
+
+## how do the values change
+Each time I called the method, a new line ("\n") and the string I entered were added to the variable information.
 
 # Part 2
 ## failure-inducing input 
