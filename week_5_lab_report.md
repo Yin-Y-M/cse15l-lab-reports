@@ -64,4 +64,35 @@ $ find -size +10k -size -12k
 
 source used: https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
 
+## -type
+- Search for files of a specific type
+
+### -type Ex1
+
+```
+find -type d
+.
+./non-fiction
+./non-fiction/OUP
+./non-fiction/OUP/Abernathy
+./non-fiction/OUP/Berk
+./non-fiction/OUP/Castro
+./non-fiction/OUP/Fletcher
+./non-fiction/OUP/Kauffman
+./non-fiction/OUP/Rybczynski
+./travel_guides
+./travel_guides/berlitz1
+./travel_guides/berlitz2
+```
+
+### -type Ex2 
+```
+$ find non-fiction/OUP/Rybczynski -type f
+non-fiction/OUP/Rybczynski/ch1.txt
+non-fiction/OUP/Rybczynski/ch2.txt
+non-fiction/OUP/Rybczynski/ch3.txt
+```
+
+source used: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
+
 other source used: ChatGPT
