@@ -11,6 +11,7 @@ Today, we are going to closely examine 4 interesting command-line options for fi
 $ find -name Paris-WhereToGo.txt
 ./travel_guides/berlitz2/Paris-WhereToGo.txt
 ```
+The command searches for the file with the name "Paris-WhereToGo.txt"
 
 ### -name Ex2
 ```
@@ -20,6 +21,7 @@ non-fiction/OUP/Berk/ch1.txt
 non-fiction/OUP/Berk/ch2.txt
 non-fiction/OUP/Berk/ch7.txt
 ```
+The command searches for the file under the specific direcotry with the name of something plus ".txt"
 
 source used: https://www.linuxteck.com/find-command-in-linux-with-examples/
 
@@ -32,6 +34,7 @@ source used: https://www.linuxteck.com/find-command-in-linux-with-examples/
 $ find -iname bali-history.txt
 ./travel_guides/berlitz2/Bali-History.txt
 ```
+The command searches for the file with the name "bali-history.txt" regardless of uppercase or lowercase
 
 ### -iname Ex2 
 ```
@@ -40,6 +43,7 @@ $ find -iname P*-wheretogo.txt
 ./travel_guides/berlitz2/Portugal-WhereToGo.txt
 ./travel_guides/berlitz2/PuertoRico-WhereToGo.txt
 ```
+The command searches for the file with the name beginning with the letter "P" and ending with "-wheretogo.txt" regardless of uppercase or lowercase
 
 source used: https://www.redhat.com/sysadmin/linux-find-command
 
@@ -54,6 +58,7 @@ $ find -size +200k
 ./travel_guides/berlitz1/WhereToItaly.txt
 ./travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
+The command searches for files with their sizes bigger than 200 KB
 
 ### -size Ex2 
 ```
@@ -61,6 +66,7 @@ $ find -size +10k -size -12k
 ./travel_guides/berlitz1/IntroFrance.txt
 ./travel_guides/berlitz1/IntroJamaica.txt
 ```
+The command searches for files with their sizes between 10 and 12 KB
 
 source used: https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
 
@@ -84,6 +90,7 @@ find -type d
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
 ```
+The command searches for files of type d(directory)
 
 ### -type Ex2 
 ```
@@ -92,6 +99,7 @@ non-fiction/OUP/Rybczynski/ch1.txt
 non-fiction/OUP/Rybczynski/ch2.txt
 non-fiction/OUP/Rybczynski/ch3.txt
 ```
+The command searches for files of type f(regular file)
 
 source used: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
 
