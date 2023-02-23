@@ -36,7 +36,7 @@
 
 ### Step 4
 - Open VSCode and a new terminal
-- Press \<Ctrl-R> and enter "ieng", through searching the previous command containing "ssh", the ssh command I have previously entered so many times will automatically appear
+- Press \<Ctrl-R> and enter "ieng", through searching the previous command containing "ieng", the ssh command I have previously entered so many times will automatically appear
  
 ![image](https://user-images.githubusercontent.com/117802747/221006312-8091390e-8918-4014-bd1c-69a680106a7d.png)
 - Press \<Enter>,and we have successfully logged into our account!
