@@ -18,7 +18,7 @@
 ### Step 1: 
 - Go to the repository lab7 on your github account
 - Click "Settings"
-- Scroll down and click "Delete this repository" under danger zone
+- Scroll down and click "Delete this repository" under Danger Zone
 ![image](https://user-images.githubusercontent.com/117802747/221001220-210fc858-b76e-4830-88cd-fbd9bd94967e.png)
 - A warning will appear, type \<your account name> /lab7 in the box
 - Click "I understand the consequences, delete this repository" to delete
