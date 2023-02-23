@@ -36,7 +36,7 @@
 
 ### Step 4
 - Open VSCode and a new terminal
-- Press \<Ctrl-R> and enter \<ieng>, through searching the previous command containing "ssh", the ssh command I have previously entered so many times will automatically appear
+- Press \<Ctrl-R> and enter "ieng", through searching the previous command containing "ssh", the ssh command I have previously entered so many times will automatically appear
  
 ![image](https://user-images.githubusercontent.com/117802747/221006312-8091390e-8918-4014-bd1c-69a680106a7d.png)
 - Press \<Enter>,and we have successfully logged into our account!
@@ -47,9 +47,40 @@
 - Select SSH and copy the strings below 
  
 ![image](https://user-images.githubusercontent.com/117802747/221007913-1e5f8ab4-7206-42d5-af8f-69775b05797f.png)
-- Go back to VSCode, enter \<git clone> and then do \<Ctrl-V> to paste, then press \<Enter> 
+- Go back to VSCode, enter "git clone" and then do \<Ctrl-V> to paste, then press \<Enter> 
  
 ![image](https://user-images.githubusercontent.com/117802747/221008625-46ba3342-e234-4a22-a7f2-e854207c4484.png)
 
 ### Step 6
-- cd 
+- Go to the folder lab7 by enter "cd lab7"
+- Run the compile and execute commands, which demonstrate the failure
+  - javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 
+  - java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+ 
+![image](https://user-images.githubusercontent.com/117802747/221009768-f4dbb94a-6d6f-4dd0-9d7b-05f01ff4526f.png)
+
+### Step 7
+- To edit the file, enter "nano ListExamples.java"
+ 
+![image](https://user-images.githubusercontent.com/117802747/221012408-8a1689b7-8975-4900-ae7c-c86ef19ab855.png)
+
+- Press \<down> 42 times and \<right> 11 times
+- Press \<delete> and enter 2
+- Press \<Ctrl-O> and \<Enter> to save the change
+- Press \<Ctrl-X> to exit
+
+![image](https://user-images.githubusercontent.com/117802747/221012163-2105d115-af06-4e1a-8c42-9545b3e99ae8.png)
+
+### Step 8
+- Press \<up> 3 times to obtain the compile command, then press \<Enter>
+- Press \<up> 3 times again to obtain the execute command, then press \<Enter>
+
+![image](https://user-images.githubusercontent.com/117802747/221013477-9bdf8759-fb6f-4c3c-9141-642a075c51bc.png)
+
+### Step 9
+- Enter the following commands to commit and push the change to Github account
+  - git add ListExamples.java
+  - git commit -m "Updated"
+  - git push origin main
+
+![image](https://user-images.githubusercontent.com/117802747/221014265-6b9aa49c-1b2c-4968-9075-4d7b2a69ec21.png)
