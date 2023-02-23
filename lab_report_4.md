@@ -72,8 +72,9 @@
 ![image](https://user-images.githubusercontent.com/117802747/221012163-2105d115-af06-4e1a-8c42-9545b3e99ae8.png)
 
 ### Step 8
-- Press \<up> 3 times to obtain the compile command, then press \<Enter>
-- Press \<up> 3 times again to obtain the execute command, then press \<Enter>
+Since the command was 3 up in the history, I used up arrow to access it.
+- Press \<up> 3 times to obtain the compile command, then press \<Enter>. 
+- Press \<up> 3 times again to obtain the execute command, then press \<Enter>.
 
 ![image](https://user-images.githubusercontent.com/117802747/221013477-9bdf8759-fb6f-4c3c-9141-642a075c51bc.png)
 
