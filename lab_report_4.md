@@ -11,6 +11,45 @@
 8. Run the tests, demonstrating that they now succeed
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-### Step 1
-- Setup Delete any existing forks of the repository you have on your account
-- Go to your github account and dele
+## Reproduce the steps
+
+**Attention**: Skip step 1 if you do not have a lab7 repository on your github account
+
+### Step 1: 
+- Go to the repository lab7 on your github account
+- Click "Settings"
+- Scroll down and click "Delete this repository" under danger zone
+![image](https://user-images.githubusercontent.com/117802747/221001220-210fc858-b76e-4830-88cd-fbd9bd94967e.png)
+- A warning will appear, type \<your account name> /lab7 in the box
+- Click "I understand the consequences, delete this repository" to delete
+  
+![image](https://user-images.githubusercontent.com/117802747/221002361-ec2ed15d-2791-49a6-a948-e19c243cc3fc.png)
+
+### Step 2
+- Open https://github.com/ucsd-cse15l-w23/lab7 on your browser
+- Click "Fork" on the top right corner of the page
+- Click "Create Fork"
+![image](https://user-images.githubusercontent.com/117802747/221005278-4406ed03-4f40-492e-a18f-53d6c3f929bd.png)
+
+### Step 3
+- The timer is about to begin!
+
+### Step 4
+- Open VSCode and a new terminal
+- Press \<Ctrl-R> and enter \<ieng>, through searching the previous command containing "ssh", the ssh command I have previously entered so many times will automatically appear
+ 
+![image](https://user-images.githubusercontent.com/117802747/221006312-8091390e-8918-4014-bd1c-69a680106a7d.png)
+- Press \<Enter>,and we have successfully logged into our account!
+
+### Step 5
+- Go to your github repository lab7 
+- Click the Code button
+- Select SSH and copy the strings below 
+ 
+![image](https://user-images.githubusercontent.com/117802747/221007913-1e5f8ab4-7206-42d5-af8f-69775b05797f.png)
+- Go back to VSCode, enter \<git clone> and then do \<Ctrl-V> to paste, then press \<Enter> 
+ 
+![image](https://user-images.githubusercontent.com/117802747/221008625-46ba3342-e234-4a22-a7f2-e854207c4484.png)
+
+### Step 6
+- cd 
