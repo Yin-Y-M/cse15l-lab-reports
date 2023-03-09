@@ -64,7 +64,8 @@
  
 ![image](https://user-images.githubusercontent.com/117802747/221012408-8a1689b7-8975-4900-ae7c-c86ef19ab855.png)
 
-- Press `<down>` 42 times and `<right>` 11 times or make your cursor reach the "1" at the end of "index1" in the third line of the last while loop in the code 
+- Press `<Ctrl-W>` , enter `"while(index2"`, then press `Enter` to search for this string.
+- Press `<down>` 2  times and `<right>` 7 times or make your cursor reach the "1" at the end of "index1" in the third line of the last while loop in the code 
 - Press `<delete>` and enter `"2"`
 - Press `<Ctrl-O>` and `<Enter>` to save the change
 - Press `<Ctrl-X>` to exit
