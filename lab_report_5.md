@@ -75,38 +75,36 @@ The command searches for the string "1967" and the result indicates that it was 
 
 source used: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-## -type
-- search for files of a specific type
+## -l
+- Display only the file names which matches the given pattern using
 
-### -type Ex1
+### -l Ex1
 
 ```
-find -type d
-.
-./non-fiction
-./non-fiction/OUP
-./non-fiction/OUP/Abernathy
-./non-fiction/OUP/Berk
-./non-fiction/OUP/Castro
-./non-fiction/OUP/Fletcher
-./non-fiction/OUP/Kauffman
-./non-fiction/OUP/Rybczynski
-./travel_guides
-./travel_guides/berlitz1
-./travel_guides/berlitz2
+$ grep -l "U.S." ./travel_guides/berlitz1/*.txt
+./travel_guides/berlitz1/HandRIsrael.txt
+./travel_guides/berlitz1/HandRMadrid.txt
+./travel_guides/berlitz1/WhatToHawaii.txt
+./travel_guides/berlitz1/WhatToIbiza.txt
+./travel_guides/berlitz1/WhatToIsrael.txt
+./travel_guides/berlitz1/WhereToHawaii.txt
+./travel_guides/berlitz1/WhereToIndia.txt
+./travel_guides/berlitz1/WhereToLosAngeles.txt
 ```
 The command searches for files of type d(directory)
 
-### -type Ex2 
+### -l Ex2 
 ```
-$ find non-fiction/OUP/Rybczynski -type f
-non-fiction/OUP/Rybczynski/ch1.txt
-non-fiction/OUP/Rybczynski/ch2.txt
-non-fiction/OUP/Rybczynski/ch3.txt
+$ grep -l "Canada" ./travel_guides/berlitz2/*.txt
+./travel_guides/berlitz2/Bermuda-history.txt
+./travel_guides/berlitz2/California-WhatToDo.txt
+./travel_guides/berlitz2/Canada-History.txt
+./travel_guides/berlitz2/Canada-WhereToGo.txt
+./travel_guides/berlitz2/NewOrleans-History.txt
 ```
 The command searches for files of type f(regular file)
 
-source used: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
+source used: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
 
 
 other source used: ChatGPT
