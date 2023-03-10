@@ -21,12 +21,12 @@ The command searches for the word "crete" in the file regardless of uppercase or
 
 ### -i Ex2
 ```
-$ grep -i "wall" ./travel_guides/berlitz2/Beijing-History.txt  
-The Ming rulers cautiously welcomed a few Catholic missionaries from Europe to Beijing. In the 17th century the Jesuits, headed by Matteo Ricci, had a profound influence not so much on Chinese religion (they made few converts among Beijingers) as on science, mathematics, astronomy, art, medicine, and other forms of knowledge that had never before been infused with Western ideas in China. Perhaps the greatest project of the Ming, however, was the restoration and extension of the Great Wall north of Beijing. For the first time, brick was used to finish these magnificent fortifications. It is the Ming Dynasty Great Wall that millions visit today at Beijing.
-The Ming rulers were understandably nervous about yet another invasion from the north and took defensive measures by extending the Great Wall. They were nonetheless undone by precisely what they feared most: northern invaders. This time the conquerors were the Manchus, who established a dynasty that proved as long-lived and as glorious as the Ming.
-The Chinese Communist party first initiated a popular program of reconstruction to transform and modernize the nation. In Beijing, the ancient city walls were pulled down and the city moat was filled in. Only a few of the venerable city gates and towers remain standing today. China’s first subway system now makes a loop that retraces the foundations of the city walls, with the subway stops named for the ancient city gates. Tiananmen Square was substantially enlarged, Chang’an Avenue widened, the Great Hall of the People built, the Museum of History and the Museum of the Revolution opened — all in the 1950s. Old neighborhoods began to be replaced by modern brick-and-concrete highrises. Beijing became its own powerful municipality (not part of any province), the seat of the new revolutionary government for the nation.
+$ grep -i "valley" ./travel_guides/berlitz1/HistoryEgypt.txt
+        T he fertile Nile Valley has supported human life for over
+        during this time. The Valley of the Kings was also chosen as a new
+        entombed in a narrow valley across the river from the temple at
 ```
-The command searches for the word "wall" in the file regardless of uppercase or lowercase.
+The command searches for the word "valley" in the file regardless of uppercase or lowercase.
 
 source used: https://en.wikibooks.org/wiki/Grep
 
