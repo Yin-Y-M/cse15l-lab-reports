@@ -76,7 +76,7 @@ The command searches for the lines containing the string "1967" and display the 
 source used: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 ## -l
-- Display only the file names which matches the given pattern using
+- Print just the name of the files where a pattern is found instead of actually matched lines
 
 ### -l Ex1
 
